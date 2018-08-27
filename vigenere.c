@@ -9,7 +9,7 @@ int main(int argc,  char *argv[])
 char text[60];
 char text2[60];
 char ch;
-int j = sizeof(argv[1]);
+int j = strlen(argv[1]);
 int i = 0;
 if(argc != 2){
 return 1;
